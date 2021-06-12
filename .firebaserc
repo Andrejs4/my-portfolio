@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "myportfolio-aec24": {
+      "hosting": {
+        "my-portfolio": [
+          "myportfolio-aec24"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "myportfolio-aec24"
+  }
+}

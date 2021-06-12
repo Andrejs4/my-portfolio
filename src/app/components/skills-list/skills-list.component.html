@@ -1,0 +1,16 @@
+<div class="ui container">
+    <div class="ui horizontal divider">
+      <h1 id="skills">Skills</h1>
+    </div>
+  
+    <div class="ui center aligned">
+      <div class="ui large horizontal divided list">
+        <div class="item" *ngFor="let skill of $skills | async">
+          <img class="ui avatar image" src="{{ skill.skillIconUrl }}">
+          <div class="content">
+            <div>Skill name:{{skill.skillName}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
