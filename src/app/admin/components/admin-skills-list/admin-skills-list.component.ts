@@ -5,7 +5,7 @@ import { IFormFields } from '../../interfaces/form-fields.interface';
 import { IFormModal } from '../../interfaces/form-modal.interface';
 
 @Component({
-  selector: 'app-skills-page',
+  selector: 'app-admin-skills-list',
   templateUrl: './admin-skills-list.component.html',
   styleUrls: ['./admin-skills-list.component.css']
 })

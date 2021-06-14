@@ -6,7 +6,7 @@ import { IFormFields } from '../../interfaces/form-fields.interface';
 import { IFormModal } from '../../interfaces/form-modal.interface';
 
 @Component({
-  selector: 'app-tools-page',
+  selector: 'app-admin-tools-list',
   templateUrl: './admin-tools-list.component.html',
   styleUrls: ['./admin-tools-list.component.css']
 })
