@@ -1,1 +1,16 @@
-<p>tools-list works!</p>
+<div class="ui container">
+    <div class="ui horizontal divider">
+      <h1 id="Tools">Tools</h1>
+    </div>
+  
+    <div class="ui center aligned">
+      <div class="ui large horizontal divided list">
+        <div class="item" *ngFor="let tool of $tools | async">
+          <img class="ui avatar image" src="{{ tool.toolIconUrl }}">
+          <div class="content">
+            <div>Tool name:{{tool.toolName}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
