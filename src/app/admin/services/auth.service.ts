@@ -10,11 +10,11 @@ export class AuthService {
     private firebaseAuth: AngularFireAuth
   ) { }
 
-  public async login(email: string, password: string): Promise<firebase.auth.UserCredential> {
-    return await this.firebaseAuth.auth.signInWithEmailAndPassword(email, password);
+  public async login(email: string, password: string): Promise<any> {
+    return await this.firebaseAuth.signInWithEmailAndPassword(email, password);
   }
 
   public async logout(): Promise<void> {
-    return await this.firebaseAuth.auth.signOut();
+    return await this.firebaseAuth.signOut();
   }
 }
