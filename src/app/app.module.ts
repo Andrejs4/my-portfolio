@@ -25,7 +25,7 @@ import { environment } from './../environments/environment';
     HeaderComponent,
     ProjectsListComponent,
     SkillsListComponent,
-    ToolsListComponent
+    ToolsListComponent,
   ],
   imports: [
     BrowserModule,

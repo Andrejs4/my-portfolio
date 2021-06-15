@@ -17,7 +17,18 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
-  declarations: [AdminPageComponent, AuthPageComponent, MessagesPageComponent, AdminAboutMeComponent, AdminMessagesComponent, AdminProjectsListComponent, AdminSkillsListComponent, AdminToolsListComponent, ModalComponent, HeaderComponent],
+  declarations: [
+    AdminPageComponent, 
+    AuthPageComponent, 
+    MessagesPageComponent, 
+    AdminAboutMeComponent, 
+    AdminMessagesComponent, 
+    AdminProjectsListComponent, 
+    AdminSkillsListComponent, 
+    AdminToolsListComponent, 
+    ModalComponent, 
+    HeaderComponent,
+    ],
   imports: [
     CommonModule,
     AdminRoutingModule,
